@@ -1,0 +1,11 @@
+# Files to ignore
+# http://chromedriver.chromium.org/downloads
+chromedriver
+.pylintrc
+cookies.pkl
+
+# Directories to ignore
+.vscode/*
+env/*
+__pycache__/*
+
