@@ -72,18 +72,6 @@ def crawler():
             EC.visibility_of_element_located((By.CLASS_NAME, 'pv-deferred-area__content'))
         )
 
-        WebDriverWait(BROWSER, timeout).until(
-            EC.visibility_of_element_located((By.ID, 'experience-section'))
-        )
-
-        WebDriverWait(BROWSER, timeout).until(
-            EC.visibility_of_element_located((By.ID, 'education-section'))
-        )
-
-        WebDriverWait(BROWSER, timeout).until(
-            EC.visibility_of_element_located((By.ID, 'education-section'))
-        )
-
         page_source = BROWSER.page_source
         BROWSER.quit()
 
